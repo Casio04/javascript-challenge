@@ -1,0 +1,42 @@
+
+.whcolor{
+    color:white
+}
+
+.bg-img{
+    position: relative;
+    height: 300px;
+    padding: 20px;
+    margin: 0;
+    background: black;
+    background-image: url("../images/nasa.jpg");
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.bg-img h1{
+    margin-top: 75px;
+}
+
+.milky-img{
+    position: relative;
+    height: 200px;
+    padding: 20px;
+    margin: 0;
+    background: black;
+    background-image: url("../images/milky-way.jpg");
+    background-size: cover;
+}
+
+thead{
+    background-color: rgb(1, 25, 65);
+    border-inline: 0px;
+}
+.header-style{
+    color: white;
+}
+
+tbody{
+    color: white;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFO Sightings</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="UFO-Level1/static/css/style.css">
+</head>
+<body style="background-color: black;">
+        <div class="navbar-expand-lg navbar-dark" style="background-color: black;">
+            <div class="container-fluid p-1">
+                <a href="index.html" class="navbar-brand px-3"><h4 class="whcolor">UFO Sightings</h4></a>                
+                <img src="UFO-Level1/static/images/ufo.svg" width="40px">
+            </div>
+        </div>
+        <div class="bg-img text-center">
+            <h1 class="whcolor">UFO Sightings</h1>
+            <h5 class="whcolor">The Truth is Out There</h5>
+        </div>
+
+        <div class="container">
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="box">                                                
+                        <div class="card text-center text-white mb-3 card-style" style="border-color: gray;">
+                            <div class="card-header" style="background-color: rgb(1, 25, 65);">
+                                <h5>Filter Search</h5>
+                            </div>
+                        <div class="card-body milky-img" style="background-color: rgba(0, 0, 0, 0.486);">
+                            <form id="form1">
+                                <div class="form-group">            
+                                <label for="EnterDate">Enter a Date</label>
+                                <input type="text" id="EnterDate" placeholder="1/1/2010" class="text-center" style="background-color: rgb(233, 230, 230); width: 100%;">
+                                <br><br>
+                                <button id="btn" type="submit" class="btn" style="background-color: rgb(1, 25, 65); color: white;">
+                                Search
+                                </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        </div>
+                    </div>                        
+                </div>
+                <div class="col-md-9">
+                    <div class="box">
+                        <table id="data-table" class="table">
+                            <thead class="header-style">
+                                <tr>
+                                    <th>Date</th>
+                                    <th>City</th>
+                                    <th>State</th>
+                                    <th>Country</th>
+                                    <th>Shape</th>
+                                    <th>Duration</th>
+                                    <th>Comments</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="UFO-Level1/static/js/data.js"></script>
+        <script src="UFO-Level1/static/js/app.js"></script>
+</body>
+</html>
